@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+.album {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.album img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.album-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.album-info {
+    font-size: 14px;
+    color: black;
+}
+.album-info-howsweet{
+    font-size: 14px;
+    color: white;
+}
+.album-info-super{
+    font-size: 14px;
+    color: white;
+}
+
+.color-blue { background-color: #97A6C6; }
+.color-red { background-color: #B35551; }
+.color-black { background-color: #3E3E3E;}
+.color-bblack {background-color: black; color: white; font-size: 20px;}
+.color-lightblue { background-color: #CEE5ED; }
+.color-lightgreen { background-color: #9FC8B1; }
+.color-green { background-color: #76a780; }
+.color-orange { background-color: #2b2b2b; color: #fff; }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{ border-collapse : collapse; margin-top: 100px;}  /*이중선 제거*/
+        th,td{
+             width: 600px;
+             height: 100px;
+             text-align: center;
+             font-size: 50px;
+             border: 1px solid #000;
+             background-color: #c8c7d6;
+
+             vertical-align: top;	/* 위 */
+             vertical-align: bottom;   /* 아래 */
+             vertical-align: middle;   /* 가운데 */
+           }
+         </style>
+</head>
+<body>
+    <table border="3">
+        <tr>
+            <th colspan="3">프로필</td>
+        </tr>
+        <tr>
+            <th rowspan="4"><img src="me.png" style="max-width: 100%; height: auto"; alt=""></th>
+            <th>이름</th>
+            <td>명현재</td>
+        </tr>
+        <tr>
+            <th>학교</th>
+            <td>경일대학교</td>
+        </tr>
+        <tr>
+            <th>학과</th>
+            <td>클라우드컴퓨팅</td>
+        </tr>
+        <tr>
+            <th>학번</th>
+            <td>20202356</td>
+        </tr>
+    </table>
+</body>
+</html>
