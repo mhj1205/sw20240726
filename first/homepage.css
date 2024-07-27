@@ -27,6 +27,8 @@ div.header-container{
 
   div.header-container nav{
     display: flex;
+    margin-left: 260px; 
+    margin-top: -50px;
   }
   
   div.header-container nav a{
@@ -34,8 +36,8 @@ div.header-container{
     color: black ;
     display: block;
     font-size: 40px;
-    margin: 25px;
-    padding: 20px 160px;
+    margin: 32px;
+    padding: 20px 110px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -44,7 +46,6 @@ div.header-container{
   div.main{
     text-align: center;
     font-family: "Nanum Pen Script", cursive;
-    margin: 20px;
   }
 
   div.gallery{
